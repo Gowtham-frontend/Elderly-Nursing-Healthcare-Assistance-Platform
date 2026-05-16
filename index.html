@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CareNest – Elderly Nursing & Healthcare</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">✦</span>
+      <span class="brand-name">CareNest</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <li><a href="#stats">Why Us</a></li>
+      <li><a href="#testimonials">Stories</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#contact" class="btn-primary">Book a Caregiver</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🌿 Trusted by 12,000+ Families</div>
+      <h1 class="hero-title">
+        Compassionate Care<br/>
+        <em>for Those You Love</em>
+      </h1>
+      <p class="hero-subtitle">
+        Professional nursing, personalised assistance, and heartfelt companionship 
+        for your elderly loved ones — right in the comfort of home.
+      </p>
+      <div class="hero-cta">
+        <a href="#services" class="btn-primary large">Explore Services</a>
+        <a href="#contact" class="btn-outline large">Talk to a Nurse</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><span class="trust-num">98%</span><span class="trust-label">Satisfaction</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">500+</span><span class="trust-label">Caregivers</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">24/7</span><span class="trust-label">Support</span></div>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-card hero-card-1">
+        <span class="hc-icon">💊</span>
+        <div>
+          <div class="hc-title">Medication Reminder</div>
+          <div class="hc-sub">9:00 AM · Mrs. Anita Roy</div>
+        </div>
+        <span class="hc-status done">Done</span>
+      </div>
+      <div class="hero-img-blob">
+        <img src="https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=520&q=80" alt="Caregiver with elderly patient" />
+      </div>
+      <div class="hero-card hero-card-2">
+        <span class="hc-icon">❤️</span>
+        <div>
+          <div class="hc-title">Vital Check</div>
+          <div class="hc-sub">BP: 120/80 · Normal</div>
+        </div>
+        <span class="hc-status good">Good</span>
+      </div>
+    </div>
+    <a href="#services" class="scroll-down" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2>Our Care Services</h2>
+        <p>A full spectrum of professional healthcare, tailored to the unique needs of every elder.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-delay="0">
+          <div class="service-icon-wrap" style="--ic:#e8f4f0">🏠</div>
+          <h3>In-Home Nursing</h3>
+          <p>Licensed nurses visit daily or on-demand for medical care, wound dressing, injections, and health monitoring.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card featured" data-delay="100">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon-wrap" style="--ic:#fef3e8">🤝</div>
+          <h3>Personal Assistance</h3>
+          <p>Help with bathing, dressing, grooming, meals, mobility, and daily activities — preserving dignity and independence.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card" data-delay="200">
+          <div class="service-icon-wrap" style="--ic:#eef0fb">💊</div>
+          <h3>Medication Management</h3>
+          <p>Structured schedules, reminders, administration, and coordination with physicians to ensure safe dosing.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card" data-delay="300">
+          <div class="service-icon-wrap" style="--ic:#fdf0f0">🧠</div>
+          <h3>Dementia & Memory Care</h3>
+          <p>Specialised support for Alzheimer's and dementia patients — structured routines, cognitive engagement, and safety.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card" data-delay="400">
+          <div class="service-icon-wrap" style="--ic:#f0f8e8">🌿</div>
+          <h3>Physiotherapy</h3>
+          <p>Certified physiotherapists offering mobility improvement, post-surgery rehab, and pain management exercises.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+        <div class="service-card" data-delay="500">
+          <div class="service-icon-wrap" style="--ic:#f5f0fb">💬</div>
+          <h3>Companionship Care</h3>
+          <p>Regular visits, conversation, games, and emotional support to reduce loneliness and boost mental well-being.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-it-works">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Simple Process</span>
+        <h2>Care in 3 Easy Steps</h2>
+      </div>
+      <div class="steps-wrap">
+        <div class="step" data-step="01">
+          <div class="step-icon">📋</div>
+          <h3>Assess Needs</h3>
+          <p>Share your loved one's health history and daily requirements through a free consultation call.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" data-step="02">
+          <div class="step-icon">👩‍⚕️</div>
+          <h3>Match Caregiver</h3>
+          <p>We hand-pick a certified nurse or caregiver best suited to your family's personality and medical needs.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step" data-step="03">
+          <div class="step-icon">🌟</div>
+          <h3>Begin Care</h3>
+          <p>Care starts within 24 hours. Track progress, communicate with the team, and adjust anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM ===== -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Meet the Experts</span>
+        <h2>Our Care Professionals</h2>
+        <p>Every member of our team is rigorously verified, trained, and driven by genuine compassion.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&q=80" alt="Dr. Meera Nair"/>
+            <div class="team-overlay">
+              <p>"Caring for elders is a privilege, not a duty."</p>
+            </div>
+          </div>
+          <div class="team-info">
+            <h4>Dr. Meera Nair</h4>
+            <span>Senior Geriatric Physician</span>
+            <div class="team-tags"><span>20 yrs exp.</span><span>Geriatrics</span></div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&q=80" alt="James Okafor"/>
+            <div class="team-overlay">
+              <p>"Every patient deserves a smile and great care."</p>
+            </div>
+          </div>
+          <div class="team-info">
+            <h4>James Okafor</h4>
+            <span>Certified Home Care Nurse</span>
+            <div class="team-tags"><span>12 yrs exp.</span><span>Wound Care</span></div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=300&q=80" alt="Priya Sharma"/>
+            <div class="team-overlay">
+              <p>"Movement is medicine. I help them thrive."</p>
+            </div>
+          </div>
+          <div class="team-info">
+            <h4>Priya Sharma</h4>
+            <span>Senior Physiotherapist</span>
+            <div class="team-tags"><span>15 yrs exp.</span><span>Rehabilitation</span></div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=300&q=80" alt="Dr. Samuel Chen"/>
+            <div class="team-overlay">
+              <p>"Memory may fade, but our care never will."</p>
+            </div>
+          </div>
+          <div class="team-info">
+            <h4>Dr. Samuel Chen</h4>
+            <span>Dementia Care Specialist</span>
+            <div class="team-tags"><span>18 yrs exp.</span><span>Dementia</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats-inner">
+        <div class="stats-text">
+          <span class="section-tag light">Our Impact</span>
+          <h2>Numbers that tell our story</h2>
+          <p>Built on years of dedication, trust, and a relentless commitment to quality elder care across India.</p>
+          <a href="#contact" class="btn-primary">Join Our Family</a>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-box" data-count="12000">
+            <div class="stat-num" data-target="12000">0</div>
+            <div class="stat-plus">+</div>
+            <div class="stat-label">Families Served</div>
+          </div>
+          <div class="stat-box" data-count="500">
+            <div class="stat-num" data-target="500">0</div>
+            <div class="stat-plus">+</div>
+            <div class="stat-label">Verified Caregivers</div>
+          </div>
+          <div class="stat-box" data-count="15">
+            <div class="stat-num" data-target="15">0</div>
+            <div class="stat-plus">+</div>
+            <div class="stat-label">Cities Covered</div>
+          </div>
+          <div class="stat-box" data-count="98">
+            <div class="stat-num" data-target="98">0</div>
+            <div class="stat-plus">%</div>
+            <div class="stat-label">Satisfaction Rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Real Stories</span>
+        <h2>What Families Say</h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialSlider">
+        <div class="testimonial active">
+          <div class="testi-quote">"</div>
+          <p>CareNest changed our lives. Our mother has dementia and was declining rapidly. The specialist they sent understood her completely and she is so much calmer and happier now. We sleep soundly knowing she's safe.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">R</div>
+            <div>
+              <strong>Rohan Mehta</strong>
+              <span>Mumbai</span>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testi-quote">"</div>
+          <p>After my father's hip surgery, he needed round-the-clock physiotherapy. CareNest sent Priya within a day. In six weeks, Dad was walking independently — ahead of the doctor's timeline. Truly exceptional.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">S</div>
+            <div>
+              <strong>Sunita Krishnan</strong>
+              <span>Bangalore</span>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testi-quote">"</div>
+          <p>Living abroad, I was terrified about my parents' wellbeing. CareNest's app updates and video check-ins gave me complete peace of mind. The caregiver treats my parents like family. Absolutely worth it.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">A</div>
+            <div>
+              <strong>Arjun Patel</strong>
+              <span>NRI · Hyderabad family</span>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-dots" id="testiDots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Let's Find the Right Care</h2>
+          <p>Reach out for a free 30-minute consultation. Our care coordinators will listen, assess, and suggest the best plan for your family.</p>
+          <div class="contact-details">
+            <div class="cd-item">
+              <span class="cd-icon">📞</span>
+              <div>
+                <strong>Call Us</strong>
+                <span>1800-123-4567 (Toll Free)</span>
+              </div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">📧</span>
+              <div>
+                <strong>Email</strong>
+                <span>care@carenest.in</span>
+              </div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">📍</span>
+              <div>
+                <strong>Offices</strong>
+                <span>Mumbai · Delhi · Bangalore · Chennai</span>
+              </div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">🕐</span>
+              <div>
+                <strong>Available</strong>
+                <span>24 / 7 · 365 Days</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="e.g. Anjali Sharma" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="+91 98765 43210" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" required>
+                <option value="">Select a service…</option>
+                <option>In-Home Nursing</option>
+                <option>Personal Assistance</option>
+                <option>Medication Management</option>
+                <option>Dementia & Memory Care</option>
+                <option>Physiotherapy</option>
+                <option>Companionship Care</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us More</label>
+              <textarea id="message" rows="4" placeholder="Briefly describe your loved one's needs and current health situation…"></textarea>
+            </div>
+            <button type="submit" class="btn-primary large full-width" id="submitBtn">
+              <span class="btn-text">Request Free Consultation</span>
+              <span class="btn-loader" style="display:none">Sending…</span>
+            </button>
+            <p class="form-note">✓ No commitment · Free assessment · Response within 2 hours</p>
+            <div class="form-success" id="formSuccess" style="display:none">
+              <span>🎉</span>
+              <p>Thank you! Our care coordinator will call you shortly.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-brand">
+            <span class="brand-icon">✦</span>
+            <span class="brand-name">CareNest</span>
+          </div>
+          <p>Bringing warmth, skill, and dignity to elderly care across India since 2010.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">in</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="LinkedIn">li</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="fl-col">
+            <strong>Services</strong>
+            <a href="#">In-Home Nursing</a>
+            <a href="#">Personal Assistance</a>
+            <a href="#">Medication Care</a>
+            <a href="#">Dementia Support</a>
+            <a href="#">Physiotherapy</a>
+          </div>
+          <div class="fl-col">
+            <strong>Company</strong>
+            <a href="#">About Us</a>
+            <a href="#">Our Team</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Press</a>
+          </div>
+          <div class="fl-col">
+            <strong>Support</strong>
+            <a href="#">FAQs</a>
+            <a href="#">Caregiver Login</a>
+            <a href="#">Family Portal</a>
+            <a href="#">Emergency Line</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 CareNest Healthcare Pvt. Ltd. All rights reserved.</p>
+        <p>Made with ❤️ for every family across India.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
